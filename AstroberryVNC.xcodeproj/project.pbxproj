@@ -1,0 +1,97 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A10000000000000000000001 /* AstroberryVNCApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20000000000000000000001 /* AstroberryVNCApp.swift */; };
+		A10000000000000000000002 /* MenuContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20000000000000000000002 /* MenuContentView.swift */; };
+		A10000000000000000000003 /* ConnectionController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20000000000000000000003 /* ConnectionController.swift */; };
+		A10000000000000000000004 /* SystemCommandRunner.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20000000000000000000004 /* SystemCommandRunner.swift */; };
+		A10000000000000000000005 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A20000000000000000000005 /* Assets.xcassets */; };
+		A10000000000000000000006 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20000000000000000000008 /* SettingsView.swift */; };
+		A10000000000000000000007 /* SecurityUtilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20000000000000000000009 /* SecurityUtilities.swift */; };
+		A10000000000000000000008 /* VisualCheckView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2000000000000000000000A /* VisualCheckView.swift */; };
+		A10000000000000000000009 /* ServerMenuInteractionState.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2000000000000000000000C /* ServerMenuInteractionState.swift */; };
+		A10000000000000000000010 /* AnimatedStatusMenuCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20000000000000000000010 /* AnimatedStatusMenuCoordinator.swift */; };
+		A10000000000000000000011 /* AnimatedStatusIconOverlay.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20000000000000000000011 /* AnimatedStatusIconOverlay.swift */; };
+		B10000000000000000000001 /* AstroberryVNCVisualCheckUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B20000000000000000000001 /* AstroberryVNCVisualCheckUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B70000000000000000000001 /* PBXContainerItemProxy */ = {isa = PBXContainerItemProxy; containerPortal = A80000000000000000000001 /* Project object */; proxyType = 1; remoteGlobalIDString = A50000000000000000000001; remoteInfo = AstroberryVNC; };
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A20000000000000000000001 /* AstroberryVNCApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AstroberryVNCApp.swift; sourceTree = "<group>"; };
+		A20000000000000000000002 /* MenuContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuContentView.swift; sourceTree = "<group>"; };
+		A20000000000000000000003 /* ConnectionController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConnectionController.swift; sourceTree = "<group>"; };
+		A20000000000000000000004 /* SystemCommandRunner.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SystemCommandRunner.swift; sourceTree = "<group>"; };
+		A20000000000000000000005 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A20000000000000000000006 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A20000000000000000000007 /* Astroberry VNC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Astroberry VNC.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A20000000000000000000008 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		A20000000000000000000009 /* SecurityUtilities.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecurityUtilities.swift; sourceTree = "<group>"; };
+		A2000000000000000000000A /* VisualCheckView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VisualCheckView.swift; sourceTree = "<group>"; };
+		A2000000000000000000000B /* Info-VisualCheck.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Info-VisualCheck.plist"; sourceTree = "<group>"; };
+		A2000000000000000000000C /* ServerMenuInteractionState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServerMenuInteractionState.swift; sourceTree = "<group>"; };
+		A20000000000000000000010 /* AnimatedStatusMenuCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimatedStatusMenuCoordinator.swift; sourceTree = "<group>"; };
+		A20000000000000000000011 /* AnimatedStatusIconOverlay.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimatedStatusIconOverlay.swift; sourceTree = "<group>"; };
+		B20000000000000000000001 /* AstroberryVNCVisualCheckUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AstroberryVNCVisualCheckUITests.swift; sourceTree = "<group>"; };
+		B20000000000000000000002 /* AstroberryVNCVisualCheckUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AstroberryVNCVisualCheckUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A30000000000000000000001 /* Frameworks */ = {isa = PBXFrameworksBuildPhase; buildActionMask = 2147483647; files = (); runOnlyForDeploymentPostprocessing = 0; };
+		B30000000000000000000001 /* Frameworks */ = {isa = PBXFrameworksBuildPhase; buildActionMask = 2147483647; files = (); runOnlyForDeploymentPostprocessing = 0; };
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A40000000000000000000001 = {isa = PBXGroup; children = (A40000000000000000000002 /* AstroberryVNC */, B40000000000000000000001 /* UITests */, A40000000000000000000003 /* Products */); sourceTree = "<group>"; };
+		A40000000000000000000002 /* AstroberryVNC */ = {isa = PBXGroup; path = AstroberryVNC; sourceTree = "<group>"; children = (A20000000000000000000001, A20000000000000000000010, A20000000000000000000011, A20000000000000000000002, A2000000000000000000000C, A20000000000000000000003, A20000000000000000000004, A20000000000000000000008, A20000000000000000000009, A2000000000000000000000A, A20000000000000000000005, A20000000000000000000006, A2000000000000000000000B); };
+		A40000000000000000000003 /* Products */ = {isa = PBXGroup; children = (A20000000000000000000007, B20000000000000000000002); name = Products; sourceTree = "<group>"; };
+		B40000000000000000000001 /* UITests */ = {isa = PBXGroup; children = (B20000000000000000000001); path = UITests; sourceTree = "<group>"; };
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A50000000000000000000001 /* AstroberryVNC */ = {isa = PBXNativeTarget; buildConfigurationList = A90000000000000000000002; buildPhases = (A60000000000000000000001, A30000000000000000000001, A70000000000000000000001); buildRules = (); dependencies = (); name = AstroberryVNC; productName = AstroberryVNC; productReference = A20000000000000000000007; productType = "com.apple.product-type.application"; };
+		B50000000000000000000001 /* AstroberryVNCVisualCheckUITests */ = {isa = PBXNativeTarget; buildConfigurationList = B90000000000000000000001; buildPhases = (B60000000000000000000001, B30000000000000000000001); buildRules = (); dependencies = (B80000000000000000000001); name = AstroberryVNCVisualCheckUITests; productName = AstroberryVNCVisualCheckUITests; productReference = B20000000000000000000002; productType = "com.apple.product-type.bundle.ui-testing"; };
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A80000000000000000000001 /* Project object */ = {isa = PBXProject; attributes = {BuildIndependentTargetsInParallel = 1; LastSwiftUpdateCheck = 2630; LastUpgradeCheck = 2630; TargetAttributes = {A50000000000000000000001 = {CreatedOnToolsVersion = 16.0;}; B50000000000000000000001 = {CreatedOnToolsVersion = 26.3; TestTargetID = A50000000000000000000001;};};}; buildConfigurationList = A90000000000000000000001; compatibilityVersion = "Xcode 14.0"; developmentRegion = en; hasScannedForEncodings = 0; knownRegions = (en, Base); mainGroup = A40000000000000000000001; productRefGroup = A40000000000000000000003; projectDirPath = ""; projectRoot = ""; targets = (A50000000000000000000001, B50000000000000000000001); };
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A70000000000000000000001 /* Resources */ = {isa = PBXResourcesBuildPhase; buildActionMask = 2147483647; files = (A10000000000000000000005); runOnlyForDeploymentPostprocessing = 0; };
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A60000000000000000000001 /* Sources */ = {isa = PBXSourcesBuildPhase; buildActionMask = 2147483647; files = (A10000000000000000000001, A10000000000000000000010, A10000000000000000000011, A10000000000000000000002, A10000000000000000000009, A10000000000000000000003, A10000000000000000000004, A10000000000000000000006, A10000000000000000000007, A10000000000000000000008); runOnlyForDeploymentPostprocessing = 0; };
+		B60000000000000000000001 /* Sources */ = {isa = PBXSourcesBuildPhase; buildActionMask = 2147483647; files = (B10000000000000000000001); runOnlyForDeploymentPostprocessing = 0; };
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B80000000000000000000001 /* PBXTargetDependency */ = {isa = PBXTargetDependency; target = A50000000000000000000001 /* AstroberryVNC */; targetProxy = B70000000000000000000001 /* PBXContainerItemProxy */; };
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		AA0000000000000000000001 /* Debug */ = {isa = XCBuildConfiguration; buildSettings = {ALWAYS_SEARCH_USER_PATHS = NO; CLANG_ENABLE_MODULES = YES; CLANG_ENABLE_OBJC_ARC = YES; COPY_PHASE_STRIP = NO; DEBUG_INFORMATION_FORMAT = dwarf; ENABLE_TESTABILITY = YES; GCC_C_LANGUAGE_STANDARD = gnu17; GCC_OPTIMIZATION_LEVEL = 0; MACOSX_DEPLOYMENT_TARGET = 15.0; ONLY_ACTIVE_ARCH = YES; SDKROOT = macosx; SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG; SWIFT_OPTIMIZATION_LEVEL = "-Onone";}; name = Debug; };
+		AA0000000000000000000002 /* Release */ = {isa = XCBuildConfiguration; buildSettings = {ALWAYS_SEARCH_USER_PATHS = NO; CLANG_ENABLE_MODULES = YES; CLANG_ENABLE_OBJC_ARC = YES; COPY_PHASE_STRIP = NO; DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym"; ENABLE_NS_ASSERTIONS = NO; GCC_C_LANGUAGE_STANDARD = gnu17; MACOSX_DEPLOYMENT_TARGET = 15.0; SDKROOT = macosx; SWIFT_COMPILATION_MODE = wholemodule; SWIFT_OPTIMIZATION_LEVEL = "-O";}; name = Release; };
+		AA0000000000000000000003 /* Debug */ = {isa = XCBuildConfiguration; buildSettings = {ARCHS = x86_64; ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon; CODE_SIGN_STYLE = Automatic; COMBINE_HIDPI_IMAGES = YES; CURRENT_PROJECT_VERSION = 1; ENABLE_APP_SANDBOX = NO; GENERATE_INFOPLIST_FILE = NO; INFOPLIST_FILE = AstroberryVNC/Info.plist; LD_RUNPATH_SEARCH_PATHS = ("$(inherited)", "@executable_path/../Frameworks"); MARKETING_VERSION = 1.0.0; PRODUCT_BUNDLE_IDENTIFIER = jp.local.AstroberryVNC; PRODUCT_NAME = "Astroberry VNC"; SWIFT_VERSION = 5.0;}; name = Debug; };
+		AA0000000000000000000004 /* Release */ = {isa = XCBuildConfiguration; buildSettings = {ARCHS = x86_64; ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon; CODE_SIGN_STYLE = Automatic; COMBINE_HIDPI_IMAGES = YES; CURRENT_PROJECT_VERSION = 1; ENABLE_APP_SANDBOX = NO; GENERATE_INFOPLIST_FILE = NO; INFOPLIST_FILE = AstroberryVNC/Info.plist; LD_RUNPATH_SEARCH_PATHS = ("$(inherited)", "@executable_path/../Frameworks"); MARKETING_VERSION = 1.0.0; PRODUCT_BUNDLE_IDENTIFIER = jp.local.AstroberryVNC; PRODUCT_NAME = "Astroberry VNC"; SWIFT_VERSION = 5.0;}; name = Release; };
+		AA0000000000000000000005 /* Visual Check */ = {isa = XCBuildConfiguration; buildSettings = {ALWAYS_SEARCH_USER_PATHS = NO; CLANG_ENABLE_MODULES = YES; CLANG_ENABLE_OBJC_ARC = YES; COPY_PHASE_STRIP = NO; DEBUG_INFORMATION_FORMAT = dwarf; ENABLE_TESTABILITY = YES; GCC_C_LANGUAGE_STANDARD = gnu17; GCC_OPTIMIZATION_LEVEL = 0; MACOSX_DEPLOYMENT_TARGET = 15.0; ONLY_ACTIVE_ARCH = YES; SDKROOT = macosx; SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG VISUAL_CHECK"; SWIFT_OPTIMIZATION_LEVEL = "-Onone";}; name = "Visual Check"; };
+		AA0000000000000000000006 /* Visual Check */ = {isa = XCBuildConfiguration; buildSettings = {ARCHS = "$(NATIVE_ARCH_ACTUAL)"; ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon; CODE_SIGN_IDENTITY = "-"; CODE_SIGN_STYLE = Manual; COMBINE_HIDPI_IMAGES = YES; CURRENT_PROJECT_VERSION = 1; ENABLE_APP_SANDBOX = NO; GENERATE_INFOPLIST_FILE = NO; INFOPLIST_FILE = "AstroberryVNC/Info-VisualCheck.plist"; LD_RUNPATH_SEARCH_PATHS = ("$(inherited)", "@executable_path/../Frameworks"); MARKETING_VERSION = 1.0.0; PRODUCT_BUNDLE_IDENTIFIER = jp.local.AstroberryVNC.VisualCheck; PRODUCT_NAME = "Astroberry VNC Visual Check"; SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG VISUAL_CHECK"; SWIFT_VERSION = 5.0;}; name = "Visual Check"; };
+		BA0000000000000000000001 /* Visual Check */ = {isa = XCBuildConfiguration; buildSettings = {ARCHS = "$(NATIVE_ARCH_ACTUAL)"; CODE_SIGN_IDENTITY = "-"; CODE_SIGN_STYLE = Manual; CURRENT_PROJECT_VERSION = 1; ENABLE_TESTABILITY = YES; GENERATE_INFOPLIST_FILE = YES; MACOSX_DEPLOYMENT_TARGET = 15.0; PRODUCT_BUNDLE_IDENTIFIER = jp.local.AstroberryVNC.VisualCheckUITests; PRODUCT_NAME = "$(TARGET_NAME)"; SDKROOT = macosx; SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG VISUAL_CHECK"; SWIFT_VERSION = 5.0; TEST_TARGET_NAME = AstroberryVNC;}; name = "Visual Check"; };
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A90000000000000000000001 = {isa = XCConfigurationList; buildConfigurations = (AA0000000000000000000001, AA0000000000000000000002, AA0000000000000000000005); defaultConfigurationIsVisible = 0; defaultConfigurationName = Release; };
+		A90000000000000000000002 = {isa = XCConfigurationList; buildConfigurations = (AA0000000000000000000003, AA0000000000000000000004, AA0000000000000000000006); defaultConfigurationIsVisible = 0; defaultConfigurationName = Release; };
+		B90000000000000000000001 = {isa = XCConfigurationList; buildConfigurations = (BA0000000000000000000001); defaultConfigurationIsVisible = 0; defaultConfigurationName = "Visual Check"; };
+/* End XCConfigurationList section */
+	};
+	rootObject = A80000000000000000000001;
+}

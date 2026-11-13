@@ -1,0 +1,73 @@
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Xcode
+DerivedData/
+**/DerivedData/
+build/
+Build/
+xcuserdata/
+**/xcuserdata/
+*.xcuserstate
+*.xccheckout
+*.xcscmblueprint
+*.xcarchive
+*.dSYM
+*.dSYM.zip
+
+# Swift Package Manager
+.build/
+.swiftpm/
+Package.resolved
+
+# Built applications and local work products
+*.app
+work/
+outputs/
+
+# Temporary and editor files
+*.tmp
+*.temp
+*.swp
+*.swo
+*~
+.idea/
+.vscode/
+
+# SSH material and sockets
+id_ed25519*
+id_rsa*
+known_hosts
+authorized_keys
+*.sock
+*.pem
+*.key
+
+# Credentials, signing, and local configuration
+.env
+.env.*
+.netrc
+.git-credentials
+*.p12
+*.pfx
+*.cer
+*.mobileprovision
+*.provisionprofile
+
+# More generated release items and user-specific settings
+*.xcresult
+*.log
+*.ips
+*.sqlite
+*.sqlite3
+*.db
+*.tar.gz
+*.tgz
+*.p12
+*.p8
+*.mobileprovision
+*.entitlements.local
+*.env.local
+**/astroberry-vnc-*.sock
