@@ -14,6 +14,16 @@ A native macOS menu-bar application that opens [TigerVNC Viewer](https://tigervn
 
 This project builds an **unsigned application**. It is not an Apple-notarized binary release and has not been tested on Apple Silicon.
 
+## Astroberry OS compatibility
+
+[Astroberry OS](https://astroberry.io/) is a free and open-source astronomy operating system for Raspberry Pi, with tools including KStars, Ekos and INDI. **Astroberry VNC is designed to be useful with Astroberry OS installations**, allowing a Mac to reach a Raspberry Pi's graphical desktop over an SSH tunnel, provided that SSH access and a compatible TigerVNC server endpoint have been configured.
+
+The connection method is based on SSH and VNC rather than an Astroberry-specific API. It may also be used with other Linux systems that meet the same requirements. Astroberry OS versions and VNC configurations differ; this application does not automatically configure Astroberry OS or guarantee compatibility with every release. In particular, configure the remote VNC endpoint and SSH port to match your installation; do not assume that a browser-based remote desktop and a standalone TigerVNC server use the same port or session.
+
+For official installation and remote desktop information, see the [Astroberry website](https://astroberry.io/), its [features](https://astroberry.io/features/) and [VNC connection guide](https://astroberry.io/how-to-connect-with-vnc/).
+
+**Independent project:** Astroberry VNC is an unofficial, independently developed macOS client. It is not developed, endorsed or supported by the Astroberry Project.
+
 ## Features
 
 - Native menu-bar controls for Connect, Disconnect, server selection, Settings and explicit Quit.
@@ -76,6 +86,12 @@ The optional SSH-agent key removal is in Settings. It applies only on explicit m
 This initial release source is based on Build 31.9.5.2, whose basic and key-cleanup behavior was tested on an Intel Mac. Long-duration, suspend/resume and failure-injection tests remain open; the revised `Retry Cleanup` behavior has not been fully retested against actual agent failure.
 
 For the development/build test workflow, see [docs/TESTING.md](docs/TESTING.md).
+
+## Acknowledgements
+
+Special thanks to the [Astroberry Project](https://astroberry.io/), its founder **Radek Kaczorek**, and the contributors and community who make astronomy software accessible on Raspberry Pi. Their work on Astroberry OS and its integration of astronomy tools helped make this kind of remote observing workflow practical.
+
+Thanks also to the open-source teams behind [TigerVNC](https://tigervnc.org/), [KStars/Ekos](https://kstars.kde.org/) and [INDI](https://indilib.org/). These are independent projects; Astroberry VNC does not bundle or claim ownership of their software.
 
 ## License
 
